@@ -12,6 +12,8 @@ public class SceneManagement : MonoBehaviour
     Scene escenaActual;
     string nombreEscena;
 
+    
+
    
     
      
@@ -51,6 +53,9 @@ public class SceneManagement : MonoBehaviour
     {
         escenaActual = SceneManager.GetActiveScene();
         nombreEscena = escenaActual.name;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
        
         

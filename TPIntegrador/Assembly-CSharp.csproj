@@ -42,13 +42,19 @@
      <Compile Include="Assets\Imports\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
      <Compile Include="Assets\Scripts\ScoreHuevos.cs" />
      <Compile Include="Assets\Imports\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
+     <Compile Include="Assets\Scripts\SceneManagement.cs" />
      <Compile Include="Assets\Scripts\HuevoColl.cs" />
      <Compile Include="Assets\Scripts\AnimController.cs" />
+     <Compile Include="Assets\count.cs" />
+     <Compile Include="Assets\salida.cs" />
      <Compile Include="Assets\Imports\Mini First Person Controller\Scripts\Components\Crouch.cs" />
      <Compile Include="Assets\Imports\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-     <Compile Include="Assets\count.cs" />
-     <Compile Include="Assets\Scripts\SceneManagement.cs" />
-     <Compile Include="Assets\salida.cs" />
+     <Compile Include="Assets\Scripts\MáquinaDeEstados\MaquinaDeEstados.cs" />
+     <Compile Include="Assets\Scripts\MáquinaDeEstados\EstadoPatrulla.cs" />
+     <Compile Include="Assets\Scripts\MáquinaDeEstados\EstadoPersecucion.cs" />
+     <Compile Include="Assets\Scripts\MáquinaDeEstados\ControladorNavMesh.cs" />
+     <Compile Include="Assets\Scripts\MáquinaDeEstados\ControladorVision.cs" />
+     <Compile Include="Assets\gameOver.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
